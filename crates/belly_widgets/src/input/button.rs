@@ -124,7 +124,7 @@ ess_define! {
         margin: 5px;
     }
     button:hover > span > .button-foreground {
-        background-color: white;
+        background-color: transparent;
     }
     button:active > .button-background {
         margin: 1px -1px -1px 1px;
@@ -133,10 +133,10 @@ ess_define! {
         margin: 1px -1px -1px 1px;
     }
     button:pressed > span > .button-foreground {
-        background-color: #bfbfbf;
+        background-color: transparent;
     }
     .button-shadow {
-        background-color: #4f4f4fb8;
+        background-color: transparent;
         top: 1px;
         left: 1px;
         bottom: -1px;
@@ -146,20 +146,20 @@ ess_define! {
         width: 100%;
         margin: -1px 1px 1px -1px;
         padding: 1px;
-        background-color: #2f2f2f;
+        background-color: transparent;
     }
     .button-foreground {
         width: 100%;
         height: 100%;
-        background-color: #dfdfdf;
-        color: #2f2f2f;
+        background-color: transparent;
+        color: transparent;
         justify-content: center;
         align-content: center;
         align-items: center;
         padding: 5px;
     }
     .button-foreground * {
-        color: #2f2f2f;
+        color: transparent;
     }
 }
 
