@@ -80,8 +80,6 @@ ess_define! {
         background-color: transparent;
         align-items: center;
         padding-left: 5%;
-        padding-top: auto;
-        padding-bottom: auto;
     }
     .text-input-container {
         width: 100%;
@@ -96,6 +94,8 @@ ess_define! {
     }
     .text-input-value {
         color: white;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .text-input-cursor {
         top: 1px;
