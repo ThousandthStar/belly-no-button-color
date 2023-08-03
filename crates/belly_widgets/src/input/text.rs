@@ -67,7 +67,7 @@ fn textinput(ctx: &mut WidgetContext, ti: &mut TextInput) {
 ess_define! {
     TEXTINPUT_STYLES,
     .text-input {
-        width: 200px;
+        width: 100%;
     }
     .text-input-border {
         background-color: transparent;
@@ -79,7 +79,9 @@ ess_define! {
         height: 100%;
         background-color: transparent;
         align-items: center;
-        margin-left: 5%;
+        padding-left: 5%;
+        padding-top: auto;
+        padding-bottom: auto;
     }
     .text-input-container {
         width: 100%;
