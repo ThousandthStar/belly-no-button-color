@@ -70,14 +70,14 @@ ess_define! {
         width: 200px;
     }
     .text-input-border {
-        background-color: #2f2f2f00;
+        background-color: transparent;
         padding: 1px;
     }
     .text-input-background {
         padding: 1px;
         width: 100%;
         height: 100%;
-        background-color: #efefef;
+        background-color: transparent;
     }
     .text-input-container {
         width: 100%;
@@ -91,12 +91,12 @@ ess_define! {
         background-color: #9f9f9f;
     }
     .text-input-value {
-        color: #2f2f2f;
+        color: white;
     }
     .text-input-cursor {
         top: 1px;
         bottom: 1px;
-        background-color: #2f2f2f;
+        background-color: black;
     }
 }
 
