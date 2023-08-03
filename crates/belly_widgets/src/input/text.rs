@@ -78,6 +78,8 @@ ess_define! {
         width: 100%;
         height: 100%;
         background-color: transparent;
+        align-items: center;
+        margin-left: 5%;
     }
     .text-input-container {
         width: 100%;
